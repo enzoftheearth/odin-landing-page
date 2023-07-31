@@ -7,35 +7,50 @@ body {
 }
 
 .container {
+    flex: 1;
+    display: flex;
     border: 3px solid black;
 }
 
 .header {
     display: flex;
+    flex-direction: row;
     height: 70px;
     background: #1F2937;
+    justify-content: space-between;
+
     border: 2px dotted pink;
 }
 
 .header-logo {
+    display: flex;
     font-size: 24px;
     color: #F9FAF8;
 }
-/*
-.links {
 
+.links {
+    display: flex;
 }
 
 ul {
+    display: flex;
+    list-style-type: none;
+}
 
+/*.header-logo, .links {
+    display: flex;
+}*/
+
+a {
+    text-decoration: none;
 }
 
 .body-one {
-
+    display: flex;
 }
 
 .left-box {
-
+    
 }
 
 .header-body-one {
@@ -69,4 +84,3 @@ ul {
 .footer {
 
 }
-*/
