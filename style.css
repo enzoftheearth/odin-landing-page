@@ -14,6 +14,11 @@ body {
 .header-and-body-one {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 150px;
+    background: #1F2937;
 }
 
 .header {
@@ -23,7 +28,7 @@ body {
     background: #1F2937;
     justify-content: space-between;
     align-items: center;
-    padding: 0 150px;
+    width: 100%;
 }
 
 .header-logo {
@@ -51,7 +56,7 @@ a {
 .body-one {
     display: flex;
     background-color: #1F2937;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 400px;
     width: 100%;
