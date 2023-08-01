@@ -106,6 +106,16 @@ a {
 }
 
 .body-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+
+    border: 2px dotted green;
+}
+
+.header-body-two {
 
 }
 
