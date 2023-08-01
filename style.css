@@ -123,14 +123,26 @@ a {
     color: #1F2937;
 }
 
-.info-and-text {
+/*.info-and-text {
     display: flex;
     gap: 50px;
     justify-content: center;
     align-items: center;
+}*/
+
+.all-info {
+    display: flex;
+    gap: 50px;
+
+}
+
+.all-text {
+    display: flex;
+    gap: 50px;
 }
 
 .info {
+    display: flex;
     border-radius: 25px;
     border: 3px solid #3882F6;
     padding: 20px;
@@ -139,6 +151,7 @@ a {
 }
 
 .text {
+    display: flex;
     width: 200px;
 }
 
