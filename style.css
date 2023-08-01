@@ -9,6 +9,7 @@ body {
 .container {
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .header-and-body-one {
@@ -110,8 +111,6 @@ a {
     width: 100%;
     text-align: center;
     padding: 0 200px;
-
-    border: 2px dotted green;
 }
 
 .header-body-two {
@@ -125,7 +124,6 @@ a {
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
-
 }
 
 .all-text {
@@ -173,7 +171,35 @@ a {
 }
 
 .body-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    padding: 0 200px;
+    background-color: #E5E7EB;
+    flex-wrap: wrap;
 
+    border: 2px dotted green;
+
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+    width: 80%;
+    justify-content: flex-start;
+
+}
+
+.quote-author {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 .body-four {
