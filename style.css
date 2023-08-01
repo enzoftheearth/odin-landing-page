@@ -10,6 +10,8 @@ body {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-and-body-one {
@@ -107,10 +109,18 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    width: 100%;
     text-align: center;
     padding: 0 200px;
+    flex-wrap: wrap;
+}
+
+.header-two {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .header-body-two {
@@ -118,12 +128,15 @@ a {
     font-weight: 800;
     color: #1F2937;
     margin: 50px 0;
+    width: 100%;
 }
 
 .all-info {
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
+    flex: 1 1 250px;
+    flex-wrap: wrap;
 }
 
 .all-text {
