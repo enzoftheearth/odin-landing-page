@@ -118,17 +118,13 @@ a {
     display: flex;
     flex-direction: row;
     height: 70px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
-}
-
-.header-body-two {
+    margin: 40px 0;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin: 50px 0;
-    width: 100%;
 }
 
 .all-info {
