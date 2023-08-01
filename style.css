@@ -27,7 +27,6 @@ body {
 .header-logo {
     display: flex;
     font-size: 24px;
-    font-weight: 800;
     color: #F9FAF8;
 }
 
@@ -53,22 +52,50 @@ a {
 
 .body-one {
     display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 100%;
 }
 
 .left-box {
-    
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    justify-content: center;
+    height: 250px;
 }
 
 .header-body-one {
-
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
 }
 
 .left-box-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
+.button {
+    border: none;
+    border-radius: 8px;
+    background: #3882F6;
+    color: white;
+    padding: 8px 24px;
+    margin: 15px 0;
+    width: 100px;
 }
 
 .right-box {
-
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 250px;
 }
 
 .right-box-text {
