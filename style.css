@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 150px;
+    padding: 0 200px;
     background: #1F2937;
 }
 
@@ -65,7 +65,7 @@ a {
 .left-box {
     display: flex;
     flex-direction: column;
-    flex-basis: 30%;
+    flex-basis: 50%;
     justify-content: center;
     height: 250px;
 }
@@ -94,7 +94,7 @@ a {
 .right-box {
     display: flex;
     flex-direction: column;
-    flex-basis: 30%;
+    flex-basis: 50%;
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
